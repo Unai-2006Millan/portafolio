@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+@font-face {
+    font-family: "Proza Libre";
+    src: url("./fonts/Proza_Libre/ProzaLibre-Regular.ttf") format("truetype");
+}
+
+body{
+    font-family: "Proza Libre", sans-serif;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header #navbar ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+header #navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+section#about{
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2;
+}
+
+section#projects{
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2;
+}
+
+section#projects ul{
+    list-style: none;
+}
+
+section#projects img{
+    display: none
+}
+
+section#projects button{
+    background-color: #ff004c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+section#skills{
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2;
+}
+
+section#skills ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section#skills ul li{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
