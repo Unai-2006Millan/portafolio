@@ -86,3 +86,43 @@ footer{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#about, section#projects, section#skills{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    section#projects img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header #navbar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#skills ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#skills ul li{
+        width: 100%;
+        text-align: center;
+    }
+}
